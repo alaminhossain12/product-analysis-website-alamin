@@ -10,16 +10,16 @@ const Navbar = () => {
                 to='/home'>Home</NavLink>
             <NavLink
                 className={({ isActive }) => (isActive ? 'active-link' : 'link')}
-                to='/reviews'>Reviews</NavLink>
+                to='/reviews'>Review</NavLink>
             <NavLink
                 className={({ isActive }) => (isActive ? 'active-link' : 'link')}
-                to='/dashboard'>Dashboard</NavLink>
+                to='/dashboard'>DashBoard</NavLink>
             <NavLink
                 className={({ isActive }) => (isActive ? 'active-link' : 'link')}
                 to='/blogs'>Blogs</NavLink>
             <NavLink
                 className={({ isActive }) => (isActive ? 'active-link' : 'link')}
-                to='/about'>About</NavLink>
+                to='/about'>About us</NavLink>
         </div>
     );
 };

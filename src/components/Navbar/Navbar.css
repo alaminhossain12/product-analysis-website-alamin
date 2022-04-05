@@ -17,9 +17,9 @@
   padding: 10px;
   display: inline-block;
   text-transform: uppercase;
-  color: blue;
+  color: green;
   font-weight: 700;
-  border-bottom: 3px solid blue;
-  border-top: 3px solid blue;
+  border-bottom: 3px solid green;
+  border-top: 3px solid green;
   border-radius: 10px;
 }
